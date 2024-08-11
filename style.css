@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+header .img img{
+    height: 99vh;
+    width: 100vw;
+    object-fit: none;
+    object-position: right;
+}
+header .dark{
+    height: 99vh;
+    width: 100vw;
+    background-color: #00000086;
+    position: absolute;
+    top: 0px;
+}
+header nav {
+    display: flex;
+    position: absolute;
+    top: 2px;
+    width: 78vw;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header nav .logo{
+    top: 5px;
+    width: 150px;
+}
+nav .content {
+    display: flex;
+    width: 270px;
+    align-items: center;
+}
+nav .content .lang {
+    font-size: 18px;
+    margin: 0 17px;
+    padding: 5px 18px;
+    background-color: rgba(0, 0, 0, 0.166);
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+}
+nav .content .signin button{
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+header .text {
+    margin-top: 140px;
+    position: absolute;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header span {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.text .heading h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.text> :nth-child(2) {
+    font-size: 30px;
+}
+.text> :nth-child(3) {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text> :nth-child(4) :nth-child(1) {
+    font-size: 20px;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.462);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 25vw;
+    margin: 30px;
+    overflow: hidden;
+}
+.text> :nth-child(4) :nth-child(2) {
+    font-size: 26px;
+    padding: 12px 18px;
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.text> :nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.line {
+    position: absolute;
+    background-color: rgb(47 43 43 / 98%);
+    width: 100vw;
+    height: 1vh;
+    align-self: flex-end;
+}
+main section {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text .heading{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: start;
+}
+.text .subh {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: start;
+}
+section img{
+    width: 38vw;
+    grid-row: 1/2;
+    grid-column: 2 / 4;
+}
+section video {
+    width: 28vw;
+    grid-row: 1/2;
+    grid-column: 2 / 4;
+    margin-left: 5vw;
+    margin-top: 12vh;
+}
+section .element {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+main section .text {
+    width: 35vw;
+}
+.sec2 .text .heading{
+    color: white;
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: start;
+}
+.sec3 video {
+    width: 24vw;
+    grid-row: 1/2;
+    grid-column: 2 / 4;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
